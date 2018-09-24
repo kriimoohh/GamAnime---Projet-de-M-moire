@@ -1,22 +1,33 @@
+html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
 #Menu
 {
     background-color: #999;
-    padding:0px;
+    padding:10px;
     clear:both;
-    text-align:center;/*For IE5 or IE No DOCTYPE*/
+    text-align:right;/*For IE5 or IE No DOCTYPE*/
     border-radius: 4px;
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
+}
+#logo{
+    position: left;
 }
 #nav
 {
     margin: 0 auto;/*If you don't want the menu center aligned, remove this line and above text-align:center*/	
 	font-size:0;
-	/*background:#fff url(bg.gif) bottom left;*/
+    /*background:#fff url(bg.gif) bottom left;*/
+        margin-right: 5%;
 }
 #Meny ul, #nav li {
     display:inline;
-    list-style-type: none;padding:0;margin:0;zoom:1;
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    zoom:1;
+    margin-left: 0.5%;
 }
 /*#sses60 li {
 	background: #fff;remove this line if you want to get rid of the 1px gap between each menu item bottom line
@@ -25,7 +36,7 @@
 {
     text-align: center;zoom:1;
     display: inline-block;
-	font: normal 12px Arial;
-	padding:25px 70px;/*This defines the size of each menu item*/
-	text-decoration:none;
+    font: normal 15px Century;
+    padding:25px 70px;/*This defines the size of each menu item*/
+    text-decoration:none;
 }
