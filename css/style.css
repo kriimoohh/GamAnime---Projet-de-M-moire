@@ -1,0 +1,48 @@
+html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+body {
+    padding-top: 30px;
+    background: #ffffff
+}
+
+h2{
+    color: #ffffff;
+    text-decoration:underline
+}
+
+.btn-outline-white:hover,.btn-outline-white:not(:disabled):not(.disabled).active, .btn-outline-white:not(:disabled):not(.disabled):active, .show>.btn-outline-white.dropdown-toggle {
+    color: #000;
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+.btn-outline-white {
+    color: #ffffff;
+    background-color: transparent;
+    background-image: none;
+    border-color: #ffffff;
+}
+
+#en-tete{
+    background: #333333;
+}
+
+#en-tete .nav-link {
+    display: block;
+    padding: 2.5rem 1rem;
+    font-size: 25px;
+}
+
+#en-tete .navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+#pied-de-page {
+    height: auto;
+}
+
+#pied-de-page .footer-content {
+    padding-top: 7%;
+    text-align: center;
+}
