@@ -1,9 +1,7 @@
-html{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-}
 body {
+    font-family: 'Indie Flower', cursive;
     padding-top: 30px;
-    background: #ffffff
+    background-color: lightseagreen;
 }
 
 h2{
@@ -24,13 +22,35 @@ h2{
     border-color: #ffffff;
 }
 
+.nav-item-home:hover{
+    border-top: 5px solid #410000;
+    background-color: rgba(138, 0, 0, 0.15);
+}
+.nav-item-mangas:hover{
+    border-top: 5px solid #f1dc4f;
+    background-color: rgba(241, 211, 79, 0.15)
+}
+.nav-item-games:hover{
+    border-top: 5px solid #0070bb;
+    background-color: rgba(000, 112, 192, 0.15)
+
+}
+.nav-item-about:hover{
+    border-top: 5px solid #410000;
+    background-color: rgba(138, 0, 0, 0.15)
+}
+navbar-nav li:hover a{
+    padding: 15px 30px 20px 30px;
+}
+
+
 #en-tete{
     background: #333333;
 }
 
 #en-tete .nav-link {
     display: block;
-    padding: 2.5rem 1rem;
+    padding: 15px;
     font-size: 25px;
 }
 
@@ -45,4 +65,8 @@ h2{
 #pied-de-page .footer-content {
     padding-top: 7%;
     text-align: center;
+}
+h1{
+    border: 5px solid black;
+    border-radius: 75%;
 }

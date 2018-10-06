@@ -1,6 +1,19 @@
+.btn-outline-white:hover,.btn-outline-white:not(:disabled):not(.disabled).active, .btn-outline-white:not(:disabled):not(.disabled):active, .show>.btn-outline-white.dropdown-toggle {
+    color: #000;
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+.btn-outline-white {
+    color: #ffffff;
+    background-color: transparent;
+    background-image: none;
+    border-color: #ffffff;
+}
+
 /* http://www.menucool.com/jquery-slider */
 
-#thumbnail-slider, .thumbnail-sliders {
+#thumbnail-slider {
     margin:0 auto; /*center-aligned*/
     width:100%;
     max-width:900px;
@@ -11,7 +24,6 @@
     user-select:none;
 }
 
-.thumbnail-sliders div.inner,
 #thumbnail-slider div.inner {    
     /*the followings should not be changed */
     position:relative;
@@ -20,7 +32,6 @@
     margin:0;
 }
  
-.thumbnail-sliders div.inner ul
 #thumbnail-slider div.inner ul {    
     /*the followings should not be changed */
     white-space:nowrap;
@@ -35,7 +46,6 @@
     height:auto!important;
 }
 
-.thumbnail-sliders ul li
 #thumbnail-slider ul li {
     display:inline-block;
     margin-top:20px;
@@ -105,3 +115,16 @@
 #thumbnail-slider-pause-play {display:none;} /*.pause*/
 #thumbnail-slider-prev, #thumbnail-slider-next {display:none;}
 
+.contenu{
+    border: 2px solid black;
+    padding: 30px;
+}
+.genre{
+    background-color: #f1dc4f;
+    width: 55%;
+    position: absolute;
+    border: 25;
+    border-radius: 20%;
+    padding: 25px;
+    text-align: center;
+}
