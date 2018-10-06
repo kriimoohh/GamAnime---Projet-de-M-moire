@@ -114,17 +114,23 @@
 
 #thumbnail-slider-pause-play {display:none;} /*.pause*/
 #thumbnail-slider-prev, #thumbnail-slider-next {display:none;}
+body{
+    background-image: url(../inc/Mangas/mangas1.jpg)
+}
 
 .contenu{
     border: 2px solid black;
-    padding: 10px;
+    padding: 30px;
+}
+.contenu-slide{
+    border: 2px solid black;
+    padding: 5px;
+    background-color: #212529;
 }
 .genre{
     background-color: #f1dc4f;
-    width: 55%;
-    position: absolute;
-    border: 25;
-    margin: 20px;
-    padding: 25px;
+    width: 100%;
+    margin: 10px;
+    padding: 20px;
     text-align: center;
 }

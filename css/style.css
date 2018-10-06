@@ -1,6 +1,7 @@
 body {
     font-family: 'Indie Flower', cursive;
     padding-top: 15px;
+    background-image: url("../inc/otaku2.jpg");
 }
 
 h2{
@@ -41,7 +42,14 @@ h2{
 navbar-nav li:hover a{
     padding: 15px 30px 20px 30px;
 }
-
+.textslide{
+    font-size: 1.7rem;
+    background-color: whitesmoke;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 5px solid #006e65;
+}
 
 #en-tete{
     background: #333333;
@@ -68,4 +76,5 @@ navbar-nav li:hover a{
 h1{
     border: 5px solid black;
     letter-spacing: 15px;
+
 }
