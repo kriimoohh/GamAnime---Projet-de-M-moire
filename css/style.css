@@ -1,7 +1,6 @@
 body {
     font-family: 'Indie Flower', cursive;
-    padding-top: 30px;
-    background-color: lightseagreen;
+    padding-top: 15px;
 }
 
 h2{
@@ -68,5 +67,5 @@ navbar-nav li:hover a{
 }
 h1{
     border: 5px solid black;
-    border-radius: 75%;
+    letter-spacing: 15px;
 }

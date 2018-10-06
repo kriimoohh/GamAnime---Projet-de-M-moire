@@ -117,14 +117,14 @@
 
 .contenu{
     border: 2px solid black;
-    padding: 30px;
+    padding: 10px;
 }
 .genre{
     background-color: #f1dc4f;
     width: 55%;
     position: absolute;
     border: 25;
-    border-radius: 20%;
+    margin: 20px;
     padding: 25px;
     text-align: center;
 }

@@ -10,7 +10,7 @@ var thumbnailSliderOptions =
     selectable: true,
     slideInterval: 3000,
     transitionSpeed: 1000,
-    shuffle: false,
+    shuffle: true,
     startSlideIndex: 0, //0-based
     pauseOnHover: true,
     initSliderByCallingInitFunc: false,
